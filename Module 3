@@ -1,0 +1,38 @@
+#Azlyn Hernandez
+#10/09/2024
+import math
+
+#Problem 1
+print("Hello World") #Greeting the user
+
+#Problem 2
+name = input("What is your name?") #this is asking the name and then greeting the user.
+print("Hello", name)
+
+#Problem 3
+name = input("What is your name?") #this is asking the name and then greeting the user.
+if name == "Azlyn":
+    print("Welcome back Azlyn") #If the user's name is Azlyn it'll give tht response
+elif name == "Professor Tovar": #If the user's name is the professor it'll give this response
+    print("Hello Professor")
+else:
+    print("Who are you?")
+
+#Problem 4
+#This will solve the area of the circle
+radius = float(input("Please enter the radius of the circle")) #asking the user to enter the radius
+area = math.pi * float(radius**2) #asking to enter the area
+print("The area of the circle with the radius of", radius, "is", area, "square unit") #giving the answer
+
+#Problem 5
+#This will calculate the mpg per gallon of a vehicle
+miles = float(input("Please enter the number of miles driven")) #Asking the user for the miles
+gallons = float(input("Please enter the number of gallons used"))#asking for the gallons
+mpg = miles/gallons #the formula to find the mpg
+print("Your vehicle's MPG is", mpg) #showing the MPG of the vehicle
+
+#Problem 6
+#This code will convert the degrees fahrenheit to degrees celsius
+fahrenheit = float(input("Please enter the temperature fahrenheit")) #Asking the user for the degrees in fahrenheit
+celsius = (fahrenheit - 32) * 5/9 #The formula to convert to celsius
+print("The temperature in Celsius is", celsius, "degrees") #Showing the results
